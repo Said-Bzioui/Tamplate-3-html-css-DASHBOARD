@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet" />
+    <title>Friends II</title>
+</head>
+<div class="pages">
+    <div class="sidbar">
+        <h1>Bzioui</h1>
+        <ul>
+            <li>
+                <i class="fa-regular fa-chart-bar fa-fw"></i>
+                <a href="dashboard.html"><span>Dashboard</span></a>
+            </li>
+            <li>
+                <i class="fa-solid fa-gear"></i>
+                <a href="settings.html"><span>Settings</span></a>
+            </li>
+            <li>
+                <i class="fa-regular fa-user"></i>
+                <a href="profile.html"><span>Profile</span></a>
+            </li>
+            <li>
+                <i class="fa-solid fa-diagram-project"></i>
+                <a href="projects.html"><span>Projects</span></a>
+            </li>
+            <li>
+                <i class="fa-solid fa-graduation-cap"></i>
+                <a href="courses.html"><span>Courses</span></a>
+            </li>
+            <li class="active">
+                <i class="fa-solid fa-user-group"></i>
+                <a href="friend.html"><span>Friends</span></a>
+            </li>
+            <li>
+                <i class="fa-solid fa-file"></i>
+                <a href="files.html"><span>Files</span></a>
+            </li>
+            <li>
+                <i class="fa-regular fa-credit-card"></i>
+                <a href="plans.html"><span>Plans</span></a>
+            </li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="header">
+            <i class="fa-solid fa-magnifying-glass">
+                <div class="input">
+                    <input type="search" placeholder="searching">
+                </div>
+            </i>
+
+            <div class="header-left">
+                <div class="berger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul>
+                        <li>
+                            <i class="fa-regular fa-chart-bar fa-fw"></i>
+                            <a href="dashboard.html">Dashboard</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-gear"></i>
+                            <a href="settings.html">Settings</a>
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-user"></i>
+                            <a href="profile.html">Profile</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-diagram-project"></i>
+                            <a href="projects.html">Projects</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <a href="courses.html">Courses</a>
+                        </li>
+                        <li class="active">
+                            <i class="fa-solid fa-user-group"></i>
+                            <a href="friend.html">Friends</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-file"></i>
+                            <a href="files.html">Files</a>
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-credit-card"></i>
+                            <a href="plans.html">Plans</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="serch-bar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="search" placeholder="searching">
+                </div>
+
+            </div>
+
+            <div class="icons">
+                <div class="notifi">
+                    <i class="fa-regular fa-bell"></i>
+                    <div class="notifi-bar">
+                        <div class="main-head">Notification</div>
+                        <div class="notifi-row" timing="Just Now">
+                            <img src="imgs/team-01.png">
+                            <div class="notifi-info">
+                                <h3>Said Bzioui</h2>
+                                    <p>react to your post</p>
+                                    <h4>How To Make Your First...</h4>
+                            </div>
+                        </div>
+                        <div class="notifi-row" timing="1day ago">
+                            <img src="imgs/team-02.png">
+                            <div class="notifi-info">
+                                <h3>Imrane Onahi</h2>
+                                    <p>react to your post</p>
+                                    <h4>How To Make Your First...</h4>
+                            </div>
+                        </div>
+
+                        <div class="notifi-row" timing="02 mins ago">
+                            <img src="imgs/team-03.png">
+                            <div class="notifi-info">
+                                <h3>Nada Achaari</h3>
+                                <p>react to your post</p>
+                                <h4>How To Make Your First...</h4>
+                            </div>
+                        </div>
+
+                        <div class="notifi-row" timing="2 Month ago">
+                            <img src="imgs/team-04.png">
+                            <div class="notifi-info">
+                                <h3>Hanae Sghayr</h3>
+                                <p>react to your post</p>
+                                <h4>How To Make Your First...</h4>
+                            </div>
+                        </div>
+
+
+                        <div class="notifi-row" timing="22 days ago">
+                            <img src="imgs/team-05.png">
+                            <div class="notifi-info">
+                                <h3>ilyass Elmousaoui</h3>
+                                <p>react to your post</p>
+                                <h4>How To Make Your First...</h4>
+                            </div>
+                        </div>
+                        <div class="btn">
+                            <a href="#">View all</a>
+                        </div>
+                    </div>
+                </div>
+                <img src="imgs/avatar.png" width="50px" alt="">
+            </div>
+        </div>
+        <div class="container">
+            <h1>Friends</h1>
+            <div class="friend-grid">
+
+                <!-- :::::::: box 1 ::::::::  -->
+                <div class="friend box">
+                    <div class="contact">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                <div class="f-name">
+                    <img src="imgs/friend-01.jpg" width="100px">
+                    <h2>Said Bzioui</h2>
+                    <h3>Full Stack Developer</h3>
+                </div>
+                    <div class="f-status vip">
+                        <div class="s-row">
+                            <i class="fa-regular fa-face-smile fa-fw"></i>
+                            <span> 99 Friend</span>
+                        </div>
+                        <div class="s-row">
+                            <i class="fa-solid fa-code-commit fa-fw"></i>
+                            <span> 15 Projects </span>
+                        </div>
+                        <div class="s-row">
+                            <i class="fa-regular fa-newspaper fa-fw"></i>
+                            <span> 25 Articles </span>
+                        </div>
+                    </div>
+                    <div class="f-info">
+                        <span>Joined 02/10/2021</span>
+                        <div class="f-link">
+                            <a href="profile.html">Profile</a>
+                            <a href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- :::::::: box  2::::::::  -->
+                <div class="friend box">
+                    <div class="contact">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                <div class="f-name">
+                    <img src="imgs/friend-02.jpg" width="100px">
+                    <h2>Said Bzioui</h2>
+                    <h3>Full Stack Developer</h3>
+                </div>
+                    <div class="f-status">
+                        <div class="s-row">
+                            <i class="fa-regular fa-face-smile fa-fw"></i>
+                            <span> 99 Friend</span>
+                        </div>
+                        <div class="s-row">
+                            <i class="fa-solid fa-code-commit fa-fw"></i>
+                            <span> 15 Projects </span>
+                        </div>
+                        <div class="s-row">
+                            <i class="fa-regular fa-newspaper fa-fw"></i>
+                            <span> 25 Articles </span>
+                        </div>
+                    </div>
+                    <div class="f-info">
+                        <span>Joined 02/10/2021</span>
+                        <div class="f-link">
+                            <a href="profile.html">Profile</a>
+                            <a href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- :::::::: box 3 ::::::::  -->
+                <div class="friend box">
+                    <div class="contact">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                <div class="f-name">
+                    <img src="imgs/friend-03.jpg" width="100px">
+                    <h2>Said Bzioui</h2>
+                    <h3>Full Stack Developer</h3>
+                </div>
+                    <div class="f-status ">
+                        <div class="s-row">
+                            <i class="fa-regular fa-face-smile fa-fw"></i>
+                            <span> 99 Friend</span>
+                        </div>
+                        <div class="s-row">
+                            <i class="fa-solid fa-code-commit fa-fw"></i>
+                            <span> 15 Projects </span>
+                        </div>
+                        <div class="s-row">
+                            <i class="fa-regular fa-newspaper fa-fw"></i>
+                            <span> 25 Articles </span>
+                        </div>
+                    </div>
+                    <div class="f-info">
+                        <span>Joined 02/10/2021</span>
+                        <div class="f-link">
+                            <a href="profile.html">Profile</a>
+                            <a href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- :::::::: box 4 ::::::::  -->
+                <div class="friend box">
+                    <div class="contact">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                <div class="f-name">
+                    <img src="imgs/friend-04.jpg" width="100px">
+                    <h2>Said Bzioui</h2>
+                    <h3>Full Stack Developer</h3>
+                </div>
+                    <div class="f-status">
+                        <div class="s-row">
+                            <i class="fa-regular fa-face-smile fa-fw"></i>
+                            <span> 99 Friend</span>
+                        </div>
+                        <div class="s-row">
+                            <i class="fa-solid fa-code-commit fa-fw"></i>
+                            <span> 15 Projects </span>
+                        </div>
+                        <div class="s-row">
+                            <i class="fa-regular fa-newspaper fa-fw"></i>
+                            <span> 25 Articles </span>
+                        </div>
+                    </div>
+                    <div class="f-info">
+                        <span>Joined 02/10/2021</span>
+                        <div class="f-link">
+                            <a href="profile.html">Profile</a>
+                            <a href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- :::::::: box 5 ::::::::  -->
+                <div class="friend box">
+                    <div class="contact">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                <div class="f-name">
+                    <img src="imgs/friend-05.jpg" width="100px">
+                    <h2>Said Bzioui</h2>
+                    <h3>Full Stack Developer</h3>
+                </div>
+                    <div class="f-status vip">
+                        <div class="s-row">
+                            <i class="fa-regular fa-face-smile fa-fw"></i>
+                            <span> 99 Friend</span>
+                        </div>
+                        <div class="s-row">
+                            <i class="fa-solid fa-code-commit fa-fw"></i>
+                            <span> 15 Projects </span>
+                        </div>
+                        <div class="s-row">
+                            <i class="fa-regular fa-newspaper fa-fw"></i>
+                            <span> 25 Articles </span>
+                        </div>
+                    </div>
+                    <div class="f-info">
+                        <span>Joined 02/10/2021</span>
+                        <div class="f-link">
+                            <a href="profile.html">Profile</a>
+                            <a href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- :::::::: box 6 ::::::::  -->
+                <div class="friend box">
+                    <div class="contact">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                <div class="f-name">
+                    <img src="imgs/friend-01.jpg" width="100px">
+                    <h2>Said Bzioui</h2>
+                    <h3>Full Stack Developer</h3>
+                </div>
+                    <div class="f-status">
+                        <div class="s-row">
+                            <i class="fa-regular fa-face-smile fa-fw"></i>
+                            <span> 99 Friend</span>
+                        </div>
+                        <div class="s-row">
+                            <i class="fa-solid fa-code-commit fa-fw"></i>
+                            <span> 15 Projects </span>
+                        </div>
+                        <div class="s-row">
+                            <i class="fa-regular fa-newspaper fa-fw"></i>
+                            <span> 25 Articles </span>
+                        </div>
+                    </div>
+                    <div class="f-info">
+                        <span>Joined 02/10/2021</span>
+                        <div class="f-link">
+                            <a href="profile.html">Profile</a>
+                            <a href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- :::::::: box 7 ::::::::  -->
+                <div class="friend box">
+                    <div class="contact">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                <div class="f-name">
+                    <img src="imgs/friend-03.jpg" width="100px">
+                    <h2>Said Bzioui</h2>
+                    <h3>Full Stack Developer</h3>
+                </div>
+                    <div class="f-status ">
+                        <div class="s-row">
+                            <i class="fa-regular fa-face-smile fa-fw"></i>
+                            <span> 99 Friend</span>
+                        </div>
+                        <div class="s-row">
+                            <i class="fa-solid fa-code-commit fa-fw"></i>
+                            <span> 15 Projects </span>
+                        </div>
+                        <div class="s-row">
+                            <i class="fa-regular fa-newspaper fa-fw"></i>
+                            <span> 25 Articles </span>
+                        </div>
+                    </div>
+                    <div class="f-info">
+                        <span>Joined 02/10/2021</span>
+                        <div class="f-link">
+                            <a href="profile.html">Profile</a>
+                            <a href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- :::::::: box 8 ::::::::  -->
+                <div class="friend box">
+                    <div class="contact">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                <div class="f-name">
+                    <img src="imgs/friend-02.jpg" width="100px">
+                    <h2>Said Bzioui</h2>
+                    <h3>Full Stack Developer</h3>
+                </div>
+                    <div class="f-status">
+                        <div class="s-row">
+                            <i class="fa-regular fa-face-smile fa-fw"></i>
+                            <span> 99 Friend</span>
+                        </div>
+                        <div class="s-row">
+                            <i class="fa-solid fa-code-commit fa-fw"></i>
+                            <span> 15 Projects </span>
+                        </div>
+                        <div class="s-row">
+                            <i class="fa-regular fa-newspaper fa-fw"></i>
+                            <span> 25 Articles </span>
+                        </div>
+                    </div>
+                    <div class="f-info">
+                        <span>Joined 02/10/2021</span>
+                        <div class="f-link">
+                            <a href="profile.html">Profile</a>
+                            <a href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- :::::::: box 9 ::::::::  -->
+                <div class="friend box">
+                    <div class="contact">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                <div class="f-name">
+                    <img src="imgs/friend-05.jpg" width="100px">
+                    <h2>Said Bzioui</h2>
+                    <h3>Full Stack Developer</h3>
+                </div>
+                    <div class="f-status vip">
+                        <div class="s-row">
+                            <i class="fa-regular fa-face-smile fa-fw"></i>
+                            <span> 99 Friend</span>
+                        </div>
+                        <div class="s-row">
+                            <i class="fa-solid fa-code-commit fa-fw"></i>
+                            <span> 15 Projects </span>
+                        </div>
+                        <div class="s-row">
+                            <i class="fa-regular fa-newspaper fa-fw"></i>
+                            <span> 25 Articles </span>
+                        </div>
+                    </div>
+                    <div class="f-info">
+                        <span>Joined 02/10/2021</span>
+                        <div class="f-link">
+                            <a href="profile.html">Profile</a>
+                            <a href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+            </div>
+
+            <body>
+                <script src="./app.js"></script>
+            </body>
+
+</html>
